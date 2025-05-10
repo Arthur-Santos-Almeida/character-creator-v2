@@ -35,3 +35,12 @@
 .controlColumn {
   width: 50%;
 }
+
+.perspectiveBar {
+  height: 500px;
+  width: 100%;
+  position: fixed;
+  top: 60%;
+  z-index: -1; /* Yeah, didn't think of any other way. I'll see in the solution */
+  background-color: hsl(195deg, 20%, 86%);
+}
